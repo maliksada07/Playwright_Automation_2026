@@ -26,6 +26,8 @@ test('Bing Search with multiple values', async ({ page }) => {
     let results = await page.locator("//*[@class='sb_count']").textContent()
     console.log(results)
     let arrayReslts = results?.split(' ')
-    console.log("Search number for " + sports[i] + " is : " + arrayReslts?.[1])
+    console.log("Search number for " + sports[i] + " is : " + arrayReslts?.[1]) 
+
+    //testing for second commit
   }
 });
