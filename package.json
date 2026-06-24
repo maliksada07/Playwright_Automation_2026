@@ -13,8 +13,11 @@
 
     "USPSMouseHoverTest": "npx playwright test src/test/Day2_06222026/T1_USPS_MouseHover.spec.ts --headed --workers=1 --project=chrome --reporter=html",
 
-    "bingLoop": "npx playwright test src/test/Day2_06222026/T2_BingSearch_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html"
+    "bingLoop": "npx playwright test src/test/Day2_06222026/T2_BingSearch_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html", 
+
+    "parallelTest": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --headed --reporter=html"
     
+    "parallelTestHeadless": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --headless --reporter=html"
   },
 
   "keywords": [],
