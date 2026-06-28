@@ -5,21 +5,21 @@
   "main": "index.js",
       
   "scripts": {
-   "bingTest": "npx playwright test src/test/Day1_06162026/T1_BingSearch.spec.ts --headless --workers=1 --project=chrome --reporter=html",  
+   "bingTest": "npx playwright test src/test/Day1_06162026/T1_BingSearch.spec.ts --workers=1 --project=chrome --reporter=html",  
     
-   "bingTestHeadless": "npx playwright test src/test/Day1_06162026/T1_BingSearch.spec.ts --headless --workers=1 --project=chrome --reporter=html",
+   "bingTestHeadless": "npx playwright test src/test/Day1_06162026/T1_BingSearch.spec.ts --workers=1 --project=chrome --reporter=html",
   
-    "NBCNetworkTest": "npx playwright test src/test/Day1_06162026/T1_NavigatetoNBCNetowrk.spec.ts --headless --workers=1 --project=chrome --reporter=html",
+    "NBCNetworkTest": "npx playwright test src/test/Day1_06162026/T1_NavigatetoNBCNetowrk.spec.ts --workers=1 --project=chrome --reporter=html",
 
-    "USPSMouseHoverTest": "npx playwright test src/test/Day2_06222026/T1_USPS_MouseHover.spec.ts --headless --workers=1 --project=chrome --reporter=html",
+    "USPSMouseHoverTest": "npx playwright test src/test/Day2_06222026/T1_USPS_MouseHover.spec.ts --workers=1 --project=chrome --reporter=html",
 
-    "bingLoop": "npx playwright test src/test/Day2_06222026/T2_BingSearch_Loop.spec.ts --headless --workers=1 --project=chrome --reporter=html", 
+    "bingLoop": "npx playwright test src/test/Day2_06222026/T2_BingSearch_Loop.spec.ts --workers=1 --project=chrome --reporter=html", 
 
-    "parallelTest": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --headless --reporter=html",
+    "parallelTest": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --reporter=html",
     
-    "parallelTestHeadless": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --headless --reporter=html", 
+    "parallelTestHeadless": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --reporter=html", 
 
-    "YoutubeVideoTest": "npx playwright test src/test/Day2_062226/T3_YoutubeVideo.spec.ts --headless --workers=1 --project=chrome --reporter=html"
+    "YoutubeVideoTest": "npx playwright test src/test/Day2_062226/T3_YoutubeVideo.spec.ts --workers=1 --project=chrome --reporter=html"
   },
 
   "keywords": [],
