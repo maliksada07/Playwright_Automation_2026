@@ -12,7 +12,8 @@ test('Youtube Video Test', async ({ page }) => {
     await page.waitForTimeout(3000) 
 
     //click on the video that says funniest cat videos ever
-    const firstVideo = page.locator("//*[text()='The Funniest Cat Videos Ever']").first();
+    const firstVideo = page.locator('ytd-video-renderer').filter({ hasText: /funniest.*cat.*video/i }).first();
+    await firstVideo.waitFor({ state: 'visible' });
     await firstVideo.click();
 
     //wait for results 
