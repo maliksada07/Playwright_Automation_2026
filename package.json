@@ -15,7 +15,7 @@
 
     "bingLoop": "npx playwright test src/test/Day2_06222026/T2_BingSearch_Loop.spec.ts --headless --workers=1 --project=chrome --reporter=html", 
 
-    "parallelTest": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --headed --reporter=html",
+    "parallelTest": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --headless --reporter=html",
     
     "parallelTestHeadless": "npx playwright test src/test/Day2_06222026/.* --workers=2 --project=chrome --headless --reporter=html", 
 
